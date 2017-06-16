@@ -1,0 +1,19 @@
+{
+  "name": "js-jasmine-karma-coverage",
+  "version": "1.0.0",
+  "description": "unit testing code coverage example framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/karma start karma.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-core": "^2.6.3",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.1.1",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-sauce-launcher": "^1.1.0"
+  }
+}
